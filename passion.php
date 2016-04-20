@@ -1,7 +1,7 @@
 <?php
 
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
-$connection =@mysql_connect('localhost', "root", "guru123");
+$connection =@mysql_connect('localhost','writo','2108199two');
 $db = mysql_select_db("companydata", $connection);
 session_start();
 $seller_check=$_SESSION['login_user'];
